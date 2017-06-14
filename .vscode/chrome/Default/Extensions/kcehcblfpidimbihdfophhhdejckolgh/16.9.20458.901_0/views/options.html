@@ -1,0 +1,30 @@
+<html>
+<head>
+	<title>Fuze on Chrome - Options</title>
+	<link rel="stylesheet" href="/style/ui.css" type="text/css" media="all" />
+</head>
+<body id="options" class="fuze">
+	<h1>Fuze on Chrome - Customize</h1>
+	<div id="list">
+		<div id="dateFormat">
+			<label for="format">
+				Dates are saved in <span>mm/dd/yyyy</span> format.<br>
+				To change that, please set your prefered date format:
+			</label>
+			<select id="format">
+				<option value="mm/dd/yyyy">12/31/2014</option>
+				<option value="dd/mm/yyyy">31/12/2014</option>
+				<option value="yyyy-mm-dd">2014-12-31</option>
+			</select>
+			<span class="notification" for="format"></span>
+		</div>
+	</div>
+  <button id="login">Login</button>
+  <button id="logout">Logout</button>
+  <button id="save">Save</button>
+	<script src="/scripts/jquery-2.2.0.min.js"></script>
+  <script src="/scripts/fuze.js"></script>
+  <script src="/scripts/eventPage.js"></script>
+	<script src="/scripts/options.js"></script>
+</body>
+</html>

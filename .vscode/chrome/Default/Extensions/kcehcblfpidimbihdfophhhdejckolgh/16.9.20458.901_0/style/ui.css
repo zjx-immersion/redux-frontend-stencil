@@ -1,0 +1,75 @@
+tr.tr-meeting-type, td.ep-dp-dt-td a[id$='fuze-launch-meeting'] {
+display:none;
+position:relative
+}
+tr[id$='fuze-link-row'].host select[id$='fuze-meeting-type'], tr[id$='fuze-link-row'].host a[id$='fuze-launch-meeting']{top:-3px}
+tr[id$='fuze-link-row'] td.ep-dp-dt-td a[id$='fuze-launch-meeting']{margin-right:10px}
+tr[id$='fuze-link-row']:not(.host) td.ep-dp-dt-td select[id$='fuze-meeting-type']{display:none!important}
+tr[id$='fuze-link-row'] td.ep-dp-dt-td label{
+vertical-align:middle
+}
+tr[id$='fuze-link-row'] td.ep-dp-dt-td span[id$='fuze-launch-icon'],
+tr[id$='fuze-link-row'] td.ep-dp-dt-td span[id$="fuzef"] {
+display: inline-block;
+position: relative;
+top:-6px;
+margin:0 5px;
+min-width:20px;
+min-height:20px;
+background-size:20px
+}
+body#options.fuze{
+background:rgba(0,0,0,.8);
+font-size:14px;
+color: #fff;
+font-family: "avenir", "arial"
+}
+body#options.fuze h1{
+text-align:center;
+margin-top:30px;
+}
+body#options.fuze div#list{padding:20px}
+body#options.fuze div#list span.notification{
+display:none;
+color:green;
+}
+body#options.fuze div#list span.notification.bad{color:red}
+body#options.fuze button{
+cursor: pointer;
+background: transparent;
+border: 1px solid #fff;
+color: #fff;
+font-size: 16px;
+padding: 5px 30px;
+outline:none;
+margin:20px;
+}
+body#options.fuze button:hover{background:rgba(255,255,255,.2)}
+body#options.fuze button:active{background:rgba(255,255,255,.1)}
+.bubble span[id$='fuzef']{
+display: inline-block;
+width: 16px;
+height: 16px;
+background-size: 16px 16px;
+position: relative;
+top: -1px;
+vertical-align: middle;
+margin-right: 2px;
+}
+body#options.fuze #login,
+body#options.fuze #logout {
+  display: none;
+}
+.bubble span[id$='create-fuze-meeting']{margin-left: 10px}
+.bubble span[id$='create-fuze-meeting'] span[id$='fuzef']{
+margin-right: -2px;
+left: -3px;
+top: 5px
+}
+.goog-imageless-button.wait,
+.lk.wait,
+.lk-button.wait{
+opacity:0.5;
+cursor:default!important;
+}
+textarea.wait,input.wait{background-color:#e0e0e0}
