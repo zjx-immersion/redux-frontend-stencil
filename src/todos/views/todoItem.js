@@ -1,7 +1,7 @@
 import React, {PropTypes} from 'react';
 
 const TodoItem = ({onToggle, onRemove, completed, text }) => {
-  const checkedProp = completed ? {checked: true} : {};
+  const checkedProp = completed ? {checked: true} : {checked: false};
   return (
     <li
       className="todo-item"

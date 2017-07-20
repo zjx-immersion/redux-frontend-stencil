@@ -1,4 +1,8 @@
 export const ADD_TODO = 'TODO/ADD';
 export const TOGGLE_TODO = 'TODO/TOGGLE';
 export const REMOVE_TODO = 'TODO/REMOVE';
+export const FETCH_STARTED = 'TODO/FETCH_STARTED';
+export const FETCH_SUCCESS = 'TODO/FETCH_SUCCESS';
+export const FETCH_FAILURE = 'TODO/FETCH_FAILURE';
+
 

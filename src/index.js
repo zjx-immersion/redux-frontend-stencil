@@ -12,6 +12,9 @@ import 'react-mdl/extra/material.js';
 import TodoApp from './App';
 
 import store from './Store.js';
+import {fetchTodos} from './todos/actions'
+
+store.dispatch(fetchTodos());
 
 ReactDOM.render(
   <Provider store={store}>
